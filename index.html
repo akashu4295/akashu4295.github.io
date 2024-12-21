@@ -51,149 +51,148 @@
  
     <br><br><br>
     
-    <div class="flex flex-col items-center p-10 shadow-xl ring-0">
+    <div class="flex flex-col items-center p-6 md:p-10 shadow-xl ring-0 bg-white">
         <!-- Centered Heading -->
-        <h1 class="text-3xl py-5 text-center">About</h1>
-        <div class="flex items-start space-x-10 p-5">
+        <h1 class="text-3xl font-bold py-4 text-center">About Me</h1>
+        <!-- Content Wrapper -->
+        <div class="flex flex-col md:flex-row items-center md:items-start md:space-x-8 space-y-6 md:space-y-0 w-full max-w-5xl">
             <!-- Image Section -->
-            <div class="w-1/3 p-5">
-                <img src="Untitled.png" style="display: block; width: 100%; max-width: 600px; height: auto; padding: 10px; background-color: #f9f9f9; border-radius: 8px;">
+            <div class="w-full md:w-1/3 flex justify-center">
+                <img 
+                    src="Untitled.png" 
+                    alt="Profile Picture"
+                    class="w-4/5 md:w-full max-w-sm rounded-lg shadow-md border border-gray-200 bg-gray-50"
+                />
             </div>
             <!-- Content Section -->
-            <div class="w-2/3 text-lg p-5">
-                <div class="flex flex-col space-y-8 p-5">
-                    <!-- Vision Section -->
-                    <div>
-                        <h2 class="text-2xl font-bold pb-3">Vision</h2>
-                        <p class="text-justify">
-                            My short-term vision is to contribute significantly to the understanding of fluid dynamics in complex enclosures, particularly through innovative computational and experimental approaches. 
-                            In the long term, I aspire to lead pioneering research in fluid mechanics, leveraging cutting-edge technologies and interdisciplinary collaboration to address challenges in energy efficiency, sustainability, and engineering design.
-                        </p>
-                    </div>
-                    <!-- Research Objective Section -->
-                    <div>
-                        <h2 class="text-2xl font-bold pb-3">Research Objective</h2>
-                        <p class="text-justify">
-                            My research focuses on the stability and bifurcation analysis of shear-driven flows, particularly Taylor-Couette flow in unconventional geometries. This includes exploring phenomena such as vortex formation, flow instabilities, and turbulent transitions in enclosures of varying shapes. 
-                            By integrating advanced numerical methods like meshless solvers with experimental techniques, I aim to bridge theoretical predictions with real-world observations. 
-                            This work seeks to deepen our understanding of flow physics and provide insights applicable to diverse domains, from industrial mixing to environmental modeling.
-                        </p>
-                    </div>
-                    <!-- Career Objective Section -->
-                    <div>
-                        <h2 class="text-2xl font-bold pb-3">Career Objective</h2>
-                        <p class="text-justify">
-                            My career objective is to excel as a researcher and academician in fluid mechanics. I aim to contribute to the global scientific community by solving complex fluid dynamics problems and mentoring the next generation of engineers and scientists.
-                            I am particularly interested in advancing the development of high-performance computational tools and experimental techniques to address critical challenges in fluid dynamics, energy, and sustainability.
-                        </p>
-                    </div>
-                    <!-- Research Philosophy Section -->
-                    <div>
-                        <h2 class="text-2xl font-bold pb-3">Research Philosophy</h2>
-                        <p class="text-justify">
-                            I believe that impactful research is driven by curiosity, collaboration, and innovation. By embracing multidisciplinary approaches and adopting open scientific practices, I strive to tackle intricate challenges with creativity and rigor. 
-                            My work is fueled by a passion for unraveling the mysteries of fluid mechanics, and I am committed to translating theoretical advancements into practical applications that benefit society.
-                        </p>
-                    </div>
+            <div class="w-full md:w-2/3 text-base md:text-lg leading-relaxed">
+                <!-- Vision Section -->
+                <div class="mb-6">
+                    <h2 class="text-xl font-semibold pb-2 border-b border-gray-300">Vision</h2>
+                    <p class="pt-2 text-justify">
+                        My short-term vision is to contribute significantly to the understanding of fluid dynamics in complex enclosures, particularly through innovative computational and experimental approaches. In the long term, I aspire to lead pioneering research in fluid mechanics, leveraging cutting-edge technologies and interdisciplinary collaboration to address challenges in energy efficiency, sustainability, and engineering design.
+                    </p>
+                </div>
+                <!-- Research Objective Section -->
+                <div class="mb-6">
+                    <h2 class="text-xl font-semibold pb-2 border-b border-gray-300">Research Objective</h2>
+                    <p class="pt-2 text-justify">
+                        My research focuses on the stability and bifurcation analysis of shear-driven flows, particularly Taylor-Couette flow in unconventional geometries. This includes exploring phenomena such as vortex formation, flow instabilities, and turbulent transitions in enclosures of varying shapes. By integrating advanced numerical methods like meshless solvers with experimental techniques, I aim to bridge theoretical predictions with real-world observations.
+                    </p>
+                </div>
+                <!-- Career Objective Section -->
+                <div class="mb-6">
+                    <h2 class="text-xl font-semibold pb-2 border-b border-gray-300">Career Objective</h2>
+                    <p class="pt-2 text-justify">
+                        My career objective is to excel as a researcher and academician in fluid mechanics. I aim to contribute to the global scientific community by solving complex fluid dynamics problems and mentoring the next generation of engineers and scientists. I am particularly interested in advancing the development of high-performance computational tools and experimental techniques.
+                    </p>
+                </div>
+                <!-- Research Philosophy Section -->
+                <div>
+                    <h2 class="text-xl font-semibold pb-2 border-b border-gray-300">Research Philosophy</h2>
+                    <p class="pt-2 text-justify">
+                        I believe that impactful research is driven by curiosity, collaboration, and innovation. By embracing multidisciplinary approaches and adopting open scientific practices, I strive to tackle intricate challenges with creativity and rigor. My work is fueled by a passion for unraveling the mysteries of fluid mechanics, and I am committed to translating theoretical advancements into practical applications that benefit society.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
+
     <br><br><br>
 
-<div class="flex flex-col items-center p-10 shadow-xl ring-0">
-    <!-- Centered Heading -->
-    <h1 class="text-3xl py-5 text-center font-bold">Publications</h1>
+    <div class="flex flex-col items-center p-10 shadow-xl ring-0">
+        <!-- Centered Heading -->
+        <h1 class="text-3xl py-5 text-center font-bold">Publications</h1>
+        
+        <!-- Cards Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl">
+            <!-- Published in Journals -->
+            <div class="bg-white shadow-md rounded-lg p-5">
+                <h2 class="text-2xl font-semibold text-left mb-4">Published in Journals</h2>
+                <ul class="list-disc pl-5 space-y-3">
+                    <li>
+                        <span class="font-semibold">High-order meshless global stability analysis of Taylor-Couette flows in complex domains</span><br>
+                        Authors: A. Unnikrishnan, V. Narayanan, & S. P. Vanka<br>
+                        <span>Physics of Fluids, 36.6 (2024)</span>
+                    </li>
+                    <li>
+                        <span class="font-semibold">Taylor-Couette flow in an elliptical enclosure generated by an inner rotating circular cylinder</span><br>
+                        Authors: A. Unnikrishnan, V. Narayanan, L. P. Chamorro, & S. P. Vanka<br>
+                        <span>Physics of Fluids, 36(3), 033604</span>
+                    </li>
+                    <li>
+                        <span class="font-semibold">Shear-driven flow in an elliptical enclosure generated by an inner rotating circular cylinder</span><br>
+                        Authors: A. Unnikrishnan, S. Shahane, V. Narayanan, & S. P. Vanka<br>
+                        <span>Physics of Fluids, 34(1), 013607</span>
+                    </li>
+                </ul>
+            </div>
     
-    <!-- Cards Section -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl">
-        <!-- Published in Journals -->
-        <div class="bg-white shadow-md rounded-lg p-5">
-            <h2 class="text-2xl font-semibold text-left mb-4">Published in Journals</h2>
-            <ul class="list-disc pl-5 space-y-3">
-                <li>
-                    <span class="font-semibold">High-order meshless global stability analysis of Taylor-Couette flows in complex domains</span><br>
-                    Authors: A. Unnikrishnan, V. Narayanan, & S. P. Vanka<br>
-                    <span>Physics of Fluids, 36.6 (2024)</span>
-                </li>
-                <li>
-                    <span class="font-semibold">Taylor-Couette flow in an elliptical enclosure generated by an inner rotating circular cylinder</span><br>
-                    Authors: A. Unnikrishnan, V. Narayanan, L. P. Chamorro, & S. P. Vanka<br>
-                    <span>Physics of Fluids, 36(3), 033604</span>
-                </li>
-                <li>
-                    <span class="font-semibold">Shear-driven flow in an elliptical enclosure generated by an inner rotating circular cylinder</span><br>
-                    Authors: A. Unnikrishnan, S. Shahane, V. Narayanan, & S. P. Vanka<br>
-                    <span>Physics of Fluids, 34(1), 013607</span>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Published as Book Chapters -->
-        <div class="bg-white shadow-md rounded-lg p-5">
-            <h2 class="text-2xl font-semibold text-left mb-4">Published as Book Chapters</h2>
-            <ul class="list-disc pl-5 space-y-3">
-                <li>
-                    <span class="font-semibold">Signature of Linear Instability in Transition Zone Measurements in Boundary Layer</span><br>
-                    Authors: A. Unnikrishnan & N. Vinod<br>
-                    <span>In: Suryan, A., et al. (eds) Lecture Notes in Mechanical Engineering. Springer (2020)</span>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Presented at Conferences -->
-        <div class="bg-white shadow-md rounded-lg p-5">
-            <h2 class="text-2xl font-semibold text-left mb-4">Presented at Conferences</h2>
-            <ul class="list-disc pl-5 space-y-3">
-                <li>
-                    <span class="font-semibold">Meshless - linear stability analysis for computations of flow instabilities in Couette flow within elliptical enclosure</span><br>
-                    Authors: A. Unnikrishnan, V. Narayanan, & S. P. Vanka<br>
-                    <span>First European Fluid Dynamics Conference, EFDC1 (2024)</span>
-                </li>
-                <li>
-                    <span class="font-semibold">Bifurcations in Taylor-Couette flow within an elliptical enclosure</span><br>
-                    Authors: A. Unnikrishnan, V. Narayanan, et al.<br>
-                    <span>ICTAM2024</span>
-                </li>
-                <li>
-                    <span class="font-semibold">Global stability analysis of eccentric Taylor Couette flow</span><br>
-                    Authors: A. Unnikrishnan & V. Narayanan<br>
-                    <span>Division of Fluid Dynamics Meeting Abstracts (2021)</span>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Submitted / Under Review -->
-        <div class="bg-white shadow-md rounded-lg p-5">
-            <h2 class="text-2xl font-semibold text-left mb-4">Submitted / Under Review</h2>
-            <ul class="list-disc pl-5 space-y-3">
-                <li>
-                    <span class="font-semibold">On the dominant motions in Taylor-Couette systems with square enclosures</span><br>
-                    Authors: A. Unnikrishnan, H. Jung, et al.<br>
-                    <span>Under review at <i>Journal of Fluid Mechanics</i></span>
-                </li>
-            </ul>
-        </div>
-
-        <!-- In Preparation -->
-        <div class="bg-white shadow-md rounded-lg p-5">
-            <h2 class="text-2xl font-semibold text-left mb-4">In Preparation</h2>
-            <ul class="list-disc pl-5 space-y-3">
-                <li>
-                    <span class="font-semibold">Meshless multigrid methods for solution of Navier Stokes equations</span><br>
-                    Authors: A. Unnikrishnan, V. Narayanan, & S. P. Vanka<br>
-                    <span>2024</span>
-                </li>
-                <li>
-                    <span class="font-semibold">Global Stability modes for pipe flow and transient energy growth mechanisms</span><br>
-                    Authors: A. Unnikrishnan & V. Narayanan<br>
-                    <span>2024</span>
-                </li>
-            </ul>
+            <!-- Published as Book Chapters -->
+            <div class="bg-white shadow-md rounded-lg p-5">
+                <h2 class="text-2xl font-semibold text-left mb-4">Published as Book Chapters</h2>
+                <ul class="list-disc pl-5 space-y-3">
+                    <li>
+                        <span class="font-semibold">Signature of Linear Instability in Transition Zone Measurements in Boundary Layer</span><br>
+                        Authors: A. Unnikrishnan & N. Vinod<br>
+                        <span>In: Suryan, A., et al. (eds) Lecture Notes in Mechanical Engineering. Springer (2020)</span>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Presented at Conferences -->
+            <div class="bg-white shadow-md rounded-lg p-5">
+                <h2 class="text-2xl font-semibold text-left mb-4">Presented at Conferences</h2>
+                <ul class="list-disc pl-5 space-y-3">
+                    <li>
+                        <span class="font-semibold">Meshless - linear stability analysis for computations of flow instabilities in Couette flow within elliptical enclosure</span><br>
+                        Authors: A. Unnikrishnan, V. Narayanan, & S. P. Vanka<br>
+                        <span>First European Fluid Dynamics Conference, EFDC1 (2024)</span>
+                    </li>
+                    <li>
+                        <span class="font-semibold">Bifurcations in Taylor-Couette flow within an elliptical enclosure</span><br>
+                        Authors: A. Unnikrishnan, V. Narayanan, et al.<br>
+                        <span>ICTAM2024</span>
+                    </li>
+                    <li>
+                        <span class="font-semibold">Global stability analysis of eccentric Taylor Couette flow</span><br>
+                        Authors: A. Unnikrishnan & V. Narayanan<br>
+                        <span>Division of Fluid Dynamics Meeting Abstracts (2021)</span>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Submitted / Under Review -->
+            <div class="bg-white shadow-md rounded-lg p-5">
+                <h2 class="text-2xl font-semibold text-left mb-4">Submitted / Under Review</h2>
+                <ul class="list-disc pl-5 space-y-3">
+                    <li>
+                        <span class="font-semibold">On the dominant motions in Taylor-Couette systems with square enclosures</span><br>
+                        Authors: A. Unnikrishnan, H. Jung, et al.<br>
+                        <span>Under review at <i>Journal of Fluid Mechanics</i></span>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- In Preparation -->
+            <div class="bg-white shadow-md rounded-lg p-5">
+                <h2 class="text-2xl font-semibold text-left mb-4">In Preparation</h2>
+                <ul class="list-disc pl-5 space-y-3">
+                    <li>
+                        <span class="font-semibold">Meshless multigrid methods for solution of Navier Stokes equations</span><br>
+                        Authors: A. Unnikrishnan, V. Narayanan, & S. P. Vanka<br>
+                        <span>2024</span>
+                    </li>
+                    <li>
+                        <span class="font-semibold">Global Stability modes for pipe flow and transient energy growth mechanisms</span><br>
+                        Authors: A. Unnikrishnan & V. Narayanan<br>
+                        <span>2024</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 
 
     <br><br><br>
